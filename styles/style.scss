@@ -33,6 +33,28 @@ body {
           &:hover {
             color: rgb(54, 212, 138);
           }
+
+          .go-web,
+          .go-JP,
+          .calculator,
+          .ping-pong-game,
+          .snake-game,
+          .sreach-picture {
+            position: relative;
+            .content {
+              display: none;
+            }
+            &:hover .content {
+              display: block;
+              position: absolute;
+              font-size: 0.5rem;
+              top: 30px;
+              color: rgb(82, 82, 82);
+              background: rgb(54, 212, 138);
+              border-radius: 5px;
+              padding: 2px 2px;
+            }
+          }
         }
       }
     }
